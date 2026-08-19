@@ -1,0 +1,51 @@
+/* JobPilot AI — subtle premium accent */
+
+.job-card {
+  transition:
+    transform 0.25s ease,
+    border-color 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.job-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(129, 140, 248, 0.45);
+  box-shadow: 0 14px 35px rgba(0, 0, 0, 0.22);
+}
+
+.job-card .match-badge {
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.job-card:hover .match-badge {
+  transform: scale(1.05);
+  box-shadow: 0 0 18px rgba(129, 140, 248, 0.18);
+}
+
+/* Small accent details */
+
+.text-slate-400 {
+  color: #94a3b8;
+}
+
+/* Accent hover for interactive elements */
+
+button:hover svg {
+  color: #818cf8;
+}
+
+/* Search / upload interaction */
+
+input:focus {
+  outline: none;
+  border-color: #818cf8 !important;
+  box-shadow: 0 0 0 3px rgba(129, 140, 248, 0.12);
+}
+
+/* Smooth scrolling */
+
+html {
+  scroll-behavior: smooth;
+}
