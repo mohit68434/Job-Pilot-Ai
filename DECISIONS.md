@@ -1,19 +1,20 @@
-# Design Decisions — JobPilot AI
 
 ## 1. Ingestion strategy
 
 I chose Part 2 of the challenge, so I did not build the ingestion pipeline from Part 1.
 
-For the homepage, I kept the job data as example data and focused on showing how the product could match a job with a user's skills. This also avoids presenting made-up data as real results.
+For this part, I used example job data in the homepage instead of connecting to a live job source. I made this choice because the main goal here was to focus on the homepage design and user experience. Building the full ingestion system would have taken more time and would not have added much to the homepage itself.
+
+I also kept the results clearly as examples so they are not presented as real job listings.
 
 ## 2. Trade-off
 
-Because of the time limit, I focused on the homepage experience instead of building the complete job-search system.
+Since I had limited time, I focused on making the main homepage flow work properly instead of trying to build the complete JobPilot platform.
 
-I built the main flow, responsive layout, and interactive job-matching demo. With more time, I would connect it to real job data, add user profiles, and build the actual matching logic.
+I worked on the hero section, resume upload interaction, job search, job cards, and the skill matching demo. If I had a full week, I would connect the project to real job data, add user profiles, and build a proper job matching system.
 
 ## 3. AI usage
 
-I used AI during development for React/Tailwind code, styling ideas, and debugging.
+I used AI during development mainly for React code, styling ideas, and debugging.
 
-I tested the code myself in VS Code and the browser. I checked the page at 390px and 1440px and tested the buttons and job-selection interaction. I also changed the demo content to make it clear that the job results are examples.
+After using the suggestions, I tested the project myself in VS Code and in the browser. I checked the layout at 390px and 1440px, tested the buttons and job selection, and made changes to the demo content so that the example results are clearly presented as examples.
